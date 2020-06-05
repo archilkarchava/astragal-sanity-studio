@@ -10,7 +10,7 @@
     "start": "sanity start --host 0.0.0.0",
     "serve": "serve -p 3333 dist",
     "dev": "npm run start",
-    "build": "sanity build",
+    "build": "sanity build public -y",
     "test": "sanity check"
   },
   "keywords": [
@@ -32,6 +32,7 @@
     "sanity-plugin-dashboard-widget-gatsby": "^1.0.9"
   },
   "devDependencies": {
+    "@sanity/cli": "^1.149.13",
     "serve": "^11.3.0"
   }
 }
