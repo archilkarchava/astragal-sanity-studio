@@ -52,7 +52,7 @@ export default {
     },
     {
       name: "addresses",
-      title: "Адресы",
+      title: "Адреса",
       type: "array",
       of: [{ type: "address" }],
       validation: (Rule) => [
