@@ -40,6 +40,8 @@ export default {
       title: "Цена (₽)",
       name: "price",
       type: "number",
+      validation: (Rule) =>
+        Rule.required().error("Поле обязательно для заполнения."),
     },
     {
       title: "Старая цена (₽)",
