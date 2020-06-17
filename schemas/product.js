@@ -36,6 +36,16 @@ export default {
       validation: (Rule) =>
         Rule.required().error("Поле обязательно для заполнения."),
     },
+    // {
+    //   title: "Товар в наличии?",
+    //   description:
+    //     "Товары, которые помечены как не в наличии на сайте отображаться не будут.",
+    //   name: "availability",
+    //   type: "boolean",
+    //   // options: {
+    //   //   layout: "checkbox",
+    //   // },
+    // },
     {
       title: "Цена (₽)",
       name: "price",
