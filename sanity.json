@@ -4,7 +4,6 @@
     "name": "Астрагал"
   },
   "api": {
-    "projectId": "igm7dexr",
     "dataset": "production"
   },
   "plugins": [
