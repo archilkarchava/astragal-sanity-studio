@@ -25,15 +25,15 @@
     },
     {
       "implements": "part:@sanity/base/document-actions/resolver",
-      "path": "./resolveDocumentActions.js"
+      "path": "./src/resolveDocumentActions.js"
     },
     {
       "name": "part:@sanity/base/new-document-structure",
-      "path": "./newDocumentStructure.js"
+      "path": "./src/documentStructure.js"
     },
     {
       "name": "part:@sanity/desk-tool/structure",
-      "path": "./deskStructure.js"
+      "path": "./src/deskStructure/index.js"
     }
   ]
 }

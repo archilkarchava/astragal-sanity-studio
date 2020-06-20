@@ -4,7 +4,6 @@ import defaultResolve, {
 } from "part:@sanity/base/document-actions"
 
 export default function resolveDocumentActions(props) {
-  console.log(PublishAction)
   if (props.type === "siteSettings") {
     return [PublishAction, DiscardChangesAction]
   }

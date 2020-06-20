@@ -1,6 +1,6 @@
 export default {
   name: "material",
-  title: "Материал",
+  title: "Материалы",
   type: "document",
   fields: [
     {
@@ -14,4 +14,4 @@ export default {
     //   type: "image",
     // },
   ],
-};
+}

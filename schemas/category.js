@@ -1,6 +1,6 @@
 export default {
   name: "category",
-  title: "Категория",
+  title: "Категории",
   type: "document",
   fields: [
     {
@@ -39,4 +39,4 @@ export default {
       type: "image",
     },
   ],
-};
+}
