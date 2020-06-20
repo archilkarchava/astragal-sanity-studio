@@ -29,7 +29,7 @@ export default {
     },
     {
       name: "emails",
-      title: "Почтовые ящики",
+      title: "Адреса электронной почты",
       type: "string",
       type: "array",
       of: [{ type: "string" }],
